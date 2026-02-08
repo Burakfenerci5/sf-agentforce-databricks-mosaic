@@ -1,0 +1,8 @@
+name: "agent-serving-endpoint"
+config:
+  served_entities:
+    - name: "agent_model"
+      entity_name: "catalog.schema.agent_model"
+      entity_version: "1"
+      workload_size: "Small"
+      scale_to_zero_enabled: true
